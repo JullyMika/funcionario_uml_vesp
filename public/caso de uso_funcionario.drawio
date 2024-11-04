@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Página-1" id="JV3_HV3Nm5c-wAhG-IEY">
+    <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-1" value="Usuário" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2JZBLCC3WLTf69ogi_Rz-3" target="2JZBLCC3WLTf69ogi_Rz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-3" value="Cadastrar Funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2JZBLCC3WLTf69ogi_Rz-4" target="2JZBLCC3WLTf69ogi_Rz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-4" value="Consultar&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Funcionário&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2JZBLCC3WLTf69ogi_Rz-5" target="2JZBLCC3WLTf69ogi_Rz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Atualizar Funcionário&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2JZBLCC3WLTf69ogi_Rz-6" target="2JZBLCC3WLTf69ogi_Rz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-6" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Deletar Funcionário&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-7" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Solicitar Confirmação de Exclusão&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2JZBLCC3WLTf69ogi_Rz-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" source="2JZBLCC3WLTf69ogi_Rz-6" target="2JZBLCC3WLTf69ogi_Rz-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="300" as="sourcePoint" />
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
